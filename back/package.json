@@ -1,0 +1,21 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "debug": "bun run --inspect=localhost:4000/book-priorize --hot src/index.ts",
+    "test:watch": "bun test --watch --coverage"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "remeda": "^2.20.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/bun": "^1.1.18",
+    "bun-types": "latest",
+    "tsx": "^4.19.2"
+  },
+  "module": "src/index.js"
+}
