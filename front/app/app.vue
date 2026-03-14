@@ -1,5 +1,6 @@
 <script setup lang="ts">
 // Your script logic here
+const test = 'BLABLA';
 </script>
 
 <template>

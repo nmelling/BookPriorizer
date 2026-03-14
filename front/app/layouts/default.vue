@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 // Your script logic here
 </script>
 

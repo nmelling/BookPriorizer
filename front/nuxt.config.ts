@@ -10,12 +10,12 @@ export default defineNuxtConfig({
     },
   },
   a11y: {
-     enabled: true,
-     defaultHighlight: true,
-     logIssues: true,
-     axe: {
-       options: {},
-       runOptions: {},
-     },
-   },
-})
+    enabled: true,
+    defaultHighlight: true,
+    logIssues: true,
+    axe: {
+      options: {},
+      runOptions: {},
+    },
+  },
+});

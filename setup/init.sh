@@ -16,10 +16,10 @@ cp .env.example .env
 
 cd "$SCRIPT_DIR/.."
 
-VSCODE_DIRNAME=".vscode"
-VSCODE_SETTING_FILE="$VSCODE_DIRNAME/settings.json"
-[ -d "$VSCODE_DIRNAME" ] || mkdir "$VSCODE_DIRNAME"
-[ -e "$VSCODE_SETTING_FILE" ] || cp ./setup/assets/vscode.settings.json "$VSCODE_SETTING_FILE";
+ZED_DIRNAME=".zed"
+ZED_SETTING_FILE="$SCRIPT_DIR/../$ZED_DIRNAME/settings.json"
+[ -d "$ZED_DIRNAME" ] || mkdir "$ZED_DIRNAME"
+[ -e "$ZED_SETTING_FILE" ] || cp "$SCRIPT_DIR/assets/zed/settings.json" "$ZED_SETTING_FILE";
 
 # Add more setup steps as needed
 
