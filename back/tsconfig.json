@@ -22,13 +22,14 @@
     "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
+    "exactOptionalPropertyTypes": true,
 
     // Some stricter flags
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noPropertyAccessFromIndexSignature": true,
     "paths": {
-      "@/*": ["./src/*"]
-    }
-  }
+      "@/*": ["./src/*"],
+    },
+  },
 }

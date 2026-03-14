@@ -21,6 +21,9 @@ Pour l'instant, base simple, pas de notion d'authentification/de comptes
 
 - [Bun](https://bun.com/docs)
 - [ElysiaJS](https://elysiajs.com/quick-start.html)
+- [Bedstack](https://bedstack.js.org/docs/getting-started)
+- [Arkenv](https://arkenv.js.org/docs/arkenv/quickstart)
+- [Arktype](https://arktype.io/docs/intro/setup)
 - [NuxtJS](https://docs.astro.build/en/getting-started/)
 - [VueJS](https://vuejs.org/guide/quick-start.html)
 - [TailwindCSS](https://tailwindcss.com/docs/installation/using-vite)

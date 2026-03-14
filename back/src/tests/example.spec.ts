@@ -1,4 +1,4 @@
-import { expect, test, describe } from 'bun:test';
+import { describe, expect, test } from 'bun:test';
 
 describe('Test example', () => {
   test('Set test here', async () => {
