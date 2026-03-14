@@ -7,12 +7,17 @@ SCRIPT_DIR=$(dirname "$(realpath "$0")")
 rm -rf "$SCRIPT_DIR/../node_modules"
 rm -rf "$SCRIPT_DIR/../front/node_modules"
 rm -rf "$SCRIPT_DIR/../back/node_modules"
+
+# Setup front
 bun install
 cd "$SCRIPT_DIR/../front"
 bun install
+
+# Setup back
 cd "$SCRIPT_DIR/../back"
 bun install
 cp .env.example .env
+
 
 cd "$SCRIPT_DIR/.."
 
